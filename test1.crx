@@ -1,0 +1,5 @@
+// main should be void
+
+func main() : int {
+  return 0;
+}

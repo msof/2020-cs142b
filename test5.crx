@@ -1,0 +1,11 @@
+// test local vars with builtin functions
+
+func main() : void {
+  var isTrue: bool;
+  let isTrue = true;  
+  var isFalse: bool;
+  let isFalse = not a;
+  ::printBool(isTrue and isFalse)
+  ::println()
+  ::printInt(69);
+}

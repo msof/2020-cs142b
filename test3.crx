@@ -1,0 +1,14 @@
+// test arithmetics
+
+func main() : void {
+  var a: int;
+  var b: int;
+  var c: int;
+  var d: int;
+ 
+  let a = 1;
+  let b = 4; 
+  let c = a + b;
+  let d = a * b;
+  let c = a + b * d / 1;
+}
