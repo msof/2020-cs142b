@@ -1,0 +1,9 @@
+// true
+
+func main() : void {
+  if (true) {
+    ::printInt(5);
+  } else {
+    ::printInt(2);
+  }
+}
