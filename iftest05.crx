@@ -1,0 +1,19 @@
+// nested
+
+func main() : void {
+	var i:int;
+	var j:int;
+	let i = ::readInt();
+	let j = 2;
+	if (i>0) {
+		if (i<2) {
+			let i = 10;
+		} else {
+			let j = 10;
+		}
+	} else {
+		let j = i;
+	}
+	::printInt(i);
+	::printInt(j);
+}
