@@ -1,0 +1,7 @@
+// false
+
+func main() : void {
+  while (false) {
+    ::printInt(5);
+  }
+}

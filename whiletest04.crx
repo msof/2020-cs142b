@@ -1,0 +1,14 @@
+// while-if
+
+func main() : void {
+	var i: int;
+	let i = ::readInt();
+	while (i < 10) {
+		if (i < 5) {
+			let i = i + 2;
+		} else {
+			let i = i + 1;
+		}
+	}
+	::printInt(i);
+}

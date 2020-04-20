@@ -1,0 +1,10 @@
+// condition
+
+func main() : void {
+	var i: int;
+	let i = ::readInt();
+	while (i < 10) {
+		let i = i + 1;
+	}
+	::printInt(i);
+}
