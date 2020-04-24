@@ -1,0 +1,18 @@
+// tests copy propagation and literal evaluation
+// -> Shouldn't generate any instructions
+
+var x : int;
+var z : int;
+var y:bool;
+var t:bool;
+
+func main() : void {
+    let x = 90;
+    let z = x;
+    let x = x + z;         // 180 
+    let z = 1 + x;         // 181
+    let x = 5 * 3 + 4 * 2; // 23
+
+    let t = true;
+    let y = true and t;
+}
