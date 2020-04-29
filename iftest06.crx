@@ -1,0 +1,19 @@
+// nested if
+// var i isn't modified in if, but is in nested else
+
+func main() : void {
+	var i : int;
+	let i = ::readInt();
+	if (true){    
+		
+	}
+	else{
+		::println();
+		if (true){
+			let i = readint();
+		} else {
+			let i = 90;
+		}
+		::printInt(i);
+	}
+}
