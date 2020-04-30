@@ -1,0 +1,23 @@
+// Tests handling of phis for duplicate labels 
+
+func main () : void { 
+    var x : int; // x1
+    if (true) {
+        // All mentions of x should refer to x2 in this if-else block
+        var x: int; // x2
+        if (true) {
+            let x = 10;
+        }
+        else {
+            let x = 3;
+        }
+        // only phi for x2 should be here
+        ::printInt(x);
+    }
+    else {
+        // refers to x1
+        let x = 99;
+    } 
+    // only phi for x1 should be here
+    ::printInt(x);
+}

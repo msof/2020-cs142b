@@ -1,0 +1,16 @@
+// Phi does not get recorded in outer join block
+
+func main () : void { 
+    if (true) {
+        var x: int;
+        if (true) {
+            let x = 10;
+        }
+        else {
+            let x = 3;
+        }
+        // phi for x
+        ::printInt(x);
+    } 
+    // should have no phis
+}
