@@ -10,7 +10,7 @@ func main() : void {
 	else{
 		::println();
 		if (true){
-			let i = readint();
+			let i = ::readInt();
 		} else {
 			let i = 90;
 		}

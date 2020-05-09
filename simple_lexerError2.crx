@@ -1,4 +1,16 @@
-// syntax Error (Lexer)
 func main() : void {
-  var isTrue = bool;
+	var i : int;
+	let i = ::readInt();
+	if (true){    
+		
+	}
+	else{
+		::println();
+		if (true){
+			let i = readint();
+		} else {
+			let i = 90;
+		}
+		::printInt(i);
+	}
 }
