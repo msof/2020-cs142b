@@ -1,0 +1,12 @@
+// test using array
+
+array a:int[3];
+array b:int[10];
+  
+func main() : void {
+
+  let b[4] = 1;
+  let a[0] = 200;
+
+  ::printInt(a[0]);
+}

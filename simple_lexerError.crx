@@ -1,0 +1,4 @@
+// syntax Error (Lexer)
+func main() : void {
+  var isTrue = bool;
+}

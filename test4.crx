@@ -1,9 +1,0 @@
-// bad function sig
-
-func go(a:void) : void {
-  return ::go(a);
-}
-
-func main() : void {
-  let x:int;
-}
