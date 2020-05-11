@@ -1,0 +1,14 @@
+// test using array CSE on Load
+
+array a:int[3];
+  
+func main() : void {
+  let i = 1 + 1;
+  let x = a[i];
+
+  let j = 0;
+  let a[j] = x;
+
+  let y = a[i];
+
+}
