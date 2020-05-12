@@ -1,0 +1,9 @@
+// testing LOAD CSE
+
+array a:int[50];
+  
+func main() : void {
+  let i = 41;
+  let x = a[i];
+  let w = a[i];
+}

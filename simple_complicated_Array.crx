@@ -1,4 +1,4 @@
-// test using array CSE on Load
+// test using array CSE, case load store load
 
 array a:int[3];
   

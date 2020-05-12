@@ -1,0 +1,9 @@
+// testing Store
+
+array a:int[500];
+  
+func main() : void {
+  let x = 15 + 4 + 19 - 2;
+  let a[41] = x;
+  let a[0] = 19;
+}
