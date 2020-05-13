@@ -1,0 +1,10 @@
+// user function with return, with param
+
+func foo(a:int) : int {
+	::printInt(a);
+	return a-1;
+}
+
+func main() : void {
+	::printInt(::foo(2));
+}

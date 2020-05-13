@@ -1,0 +1,9 @@
+// user function without return, with param
+
+func foo(a:int) : void {
+	::printInt(a);
+}
+
+func main() : void {
+	::foo(2);
+}
