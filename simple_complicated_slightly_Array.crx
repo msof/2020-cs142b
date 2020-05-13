@@ -1,4 +1,5 @@
 array x:int[5];
+var i:int;
 
 func main() : void {
   let i =  2 + 2; 

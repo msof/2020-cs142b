@@ -1,9 +1,12 @@
 // testing LOAD CSE
 
 array a:int[50];
+var i:int;
+var x:int;
+var w:int;
   
 func main() : void {
-  let i = 41;
-  let x = a[i];
-  let w = a[i];
+	let i = 41;
+	let x = a[i];
+	let w = a[i];
 }
