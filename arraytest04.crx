@@ -1,0 +1,12 @@
+// modification of different array
+
+array a: int[5];
+array b: int[5];
+
+func main() : void {
+	let a[4] = 3;
+	::printInt(a[4]);
+	let b[5] = 10;
+	::printInt(a[4]);
+	::printInt(b[5]);
+}

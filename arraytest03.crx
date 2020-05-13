@@ -1,0 +1,11 @@
+// modification of different offset
+
+array a: int[5];
+
+func main() : void {
+	let a[4] = 3;
+	::printInt(a[4]);
+	let a[5] = 3;
+	::printInt(a[4]);
+	::printInt(a[5]);
+}
