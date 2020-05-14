@@ -1,0 +1,21 @@
+func main() : void {
+  var a: int;
+  var b: int;
+  var c: int;
+  var d: int;
+ 
+  let a = ::readInt();
+  let b = a;
+
+  let c = a + b;
+  let d = a + b;
+
+  let d = d  - 3;
+
+  if(a > b){
+    let a = a + 1;
+  }
+
+  let b = b + 1;
+  let a = a + 3;
+}
