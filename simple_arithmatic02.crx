@@ -1,0 +1,12 @@
+func main() : void {
+  var x: int;
+  var y: int;
+  var z: int;
+ 
+  let x = ::readInt();
+  let z = 4; 
+  let y = z;
+  let x = x * z;
+  let z = x / y + z - z;
+  ::printInt(x);
+}

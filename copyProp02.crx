@@ -1,0 +1,12 @@
+var a : int;
+var b : int;
+var c : int;
+
+func main() : void{
+    let a = 1;
+    let b = a;
+    let c = b;
+    let b = a + b;
+    let c = a + b;
+    let a = c;
+}

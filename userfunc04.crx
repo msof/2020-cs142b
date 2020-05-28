@@ -1,0 +1,12 @@
+func foo() : void {
+    ::printInt(7);
+}
+
+func bar(x:int) : int {
+    return x + 2;
+}
+
+func main() : void {
+    ::foo();
+    ::printInt(::bar(9));
+}

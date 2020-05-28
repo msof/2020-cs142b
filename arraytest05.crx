@@ -1,0 +1,9 @@
+array a: int[4];
+array b: int[7];
+
+func main() : void {
+	let a[4] = 3;
+	::printInt(a[4]);
+	let b[4] = 10;
+	::printInt(b[4]);
+}

@@ -1,0 +1,16 @@
+func main() : void {
+    var x: int;
+    var y: int;
+    
+    let x = 10;
+    let y = x + 1;
+    
+    if (x < 10){
+        ::printInt(x);
+    }
+    else{
+        let x = y;
+    }
+    
+    ::printInt(x);
+}
