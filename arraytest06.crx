@@ -1,0 +1,17 @@
+array a: int[6];
+
+func main() : void {
+  var b: int;
+  var c: int;
+ 
+  let b = ::readInt();
+    
+  let a[2] = 9;
+  let c = a[2];
+
+  if(b > 3){
+    let a[1] = 12;
+  }
+
+  let b = a[2] + 1;
+}

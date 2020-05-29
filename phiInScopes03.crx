@@ -1,0 +1,18 @@
+func main() : void {
+  var a: int;
+  var b: int;
+ 
+  let a = ::readInt();
+  let b = ::readInt();
+
+  // while join block should have no phi for a
+  while(b < 9){
+    let b = b + 2;
+    var a: int;
+    let a = b + 1;
+    ::printInt(a);
+  }
+
+  let b = b + 1;
+  let a = a + 3;
+}

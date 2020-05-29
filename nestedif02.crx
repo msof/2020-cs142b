@@ -1,0 +1,18 @@
+func main() : void {
+  var a: int;
+  var b: int;
+  var res: int;
+ 
+  let a = ::readInt();
+  let b = ::readInt();
+
+  if(a > b){
+    let b = b * 3;
+    if(b > a){
+      let res = 1;
+    }
+  }
+
+  let b = b / 3;
+  ::printInt(res);
+}

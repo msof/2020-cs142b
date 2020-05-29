@@ -1,0 +1,18 @@
+var a: int;
+
+func main() : void {
+  var b: int;
+ 
+  let a = ::readInt();
+  let b = ::readInt();
+
+  if(a > b){
+    var a: int;
+    let a = b + 1;
+    ::printInt(a);
+    // a should shadow global and have no phi
+  }
+
+  let b = b + 1;
+  let a = a + 3;
+}
