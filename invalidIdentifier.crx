@@ -1,0 +1,5 @@
+// Should raise an error related to reserved keywords
+func main() : void {
+	var int : int;
+	var bool : bool;
+}

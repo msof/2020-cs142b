@@ -1,0 +1,5 @@
+// Grammar is correct, but should raise an error since there is no main function
+
+func test() : void {
+
+}
