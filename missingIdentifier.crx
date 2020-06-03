@@ -1,0 +1,4 @@
+// Should raise an error that the identifier cannot be found
+func main() : void {
+	let a = 10;
+}
