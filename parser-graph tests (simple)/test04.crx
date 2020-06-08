@@ -1,0 +1,12 @@
+// second level arithmetic
+
+func main() : void {
+    var a: int;
+    var b: int;
+    var c: int;
+
+    let a = 5;
+    let b = 1;
+    let c = a / b;
+    let a = a * b;
+}

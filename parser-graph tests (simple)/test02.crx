@@ -1,0 +1,9 @@
+// variable reassignment
+
+func main() : void {
+    var a: int;
+    var b: int;
+
+    let a = 5;
+    let b = a;
+}

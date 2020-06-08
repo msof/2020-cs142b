@@ -1,0 +1,11 @@
+// if-statement false
+
+func main() : void {
+    var a: int;
+    let a = 1;
+
+    if (a > 5) {
+        let a = 5;
+    }
+    ::printInt(a);
+}

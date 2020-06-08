@@ -1,0 +1,13 @@
+// multi-level arithmetic
+
+func main() : void {
+    var a: int;
+    var b: int;
+    var c: int;
+    var d: int;
+
+    let a = 5;
+    let b = a + 2;
+    let c = b * 3;
+    let d = a / b + (c - b);
+}
